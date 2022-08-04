@@ -1,5 +1,6 @@
 import { Profile } from "./Profile/Profile";
-import user from './data/user.json';
+import user from "../data/user.json";
+<data />
 
 
 export const App = () => {
