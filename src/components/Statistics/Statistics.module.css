@@ -55,6 +55,7 @@
   color: whitesmoke;
   text-shadow: 0 0 3px #000, 0 0 5px #fff;
   margin: 10px auto;
+  font-size: 14px;
 }
 
 .statistics .statList .item .percentage {
