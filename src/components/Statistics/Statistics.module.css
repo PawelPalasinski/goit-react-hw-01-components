@@ -1,0 +1,65 @@
+.statistics {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  display: block;
+  margin: 20px auto;
+  width: 450px;
+}
+
+.statistics:hover {
+  -webkit-box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.4);
+          box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.statistics .title {
+  color: grey;
+  text-transform: capitalize;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.statistics .statList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  margin: 20px 0px;
+  padding-bottom: 10px;
+}
+
+.statistics .statList .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 75px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.statistics .statList .item .label {
+  color: whitesmoke;
+  text-shadow: 0 0 3px #000, 0 0 5px #fff;
+  margin: 10px auto;
+}
+
+.statistics .statList .item .percentage {
+  color: #000;
+  text-shadow: 0 0 3px #fff, 0 0 5px #000;
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=Statistics.module.css.map */
