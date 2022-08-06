@@ -10,11 +10,17 @@
   margin: 20px auto;
   width: 200px;
   border-radius: 5px;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
 }
 
 .profile:hover {
   -webkit-box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.4);
           box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.4);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 .profile .description {
@@ -30,7 +36,8 @@
 .profile .description .avatar {
   width: 80px;
   border-radius: 50%;
-  margin: 25px auto;
+  margin: 0 auto;
+  margin-top: 25px;
 }
 
 .profile .description .name {
@@ -38,7 +45,8 @@
   margin: 15px auto;
 }
 
-.profile .description .tag, .profile .description .location {
+.profile .description .tag,
+.profile .description .location {
   color: grey;
   margin: 3px auto;
   font-size: 12px;
@@ -71,7 +79,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   font-size: 12px;
-  width: calc(100%/3);
+  width: calc(100% / 3);
   padding: 15px 0;
 }
 
