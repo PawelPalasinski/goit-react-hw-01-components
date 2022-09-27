@@ -10,6 +10,8 @@ import friendList from '../data/friends.json';
 import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 import transactions from '../data/transactions.json';
 
+import { Footer } from './Footer/Footer'
+
 export const App = () => {
   const { username, tag, location, avatar, stats } = user;
 
@@ -36,6 +38,8 @@ export const App = () => {
       <>
         <TransactionHistory items={transactions} />
       </>
+
+      <Footer/>
     </>
   );
 };
